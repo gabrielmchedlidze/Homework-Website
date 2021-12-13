@@ -1,0 +1,114 @@
+@charset "utf-8";
+@font-face {
+  font-family: "BPG Nino Mtavruli";
+  src: url(fonts/bpg_nino_mtavruli_normal.ttf)
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf)
+}
+@font-face {
+  font-family: "BPG Ingiri Arial";
+  src: url(fonts/bpg_ingiri_arial.ttf)
+}
+
+/* CSS Document */
+
+.htmllogo img {
+	padding-left: 30px;
+	padding-top: 33px;
+	padding-bottom: 23.8px;
+}
+
+nav ul {
+	list-style-type: none;
+	line-height: 26.4px;
+	font-family: "BPG Nino Mtavruli";
+	font-weight: bold;
+	padding-left: 30px;
+	padding-bottom: 36.1px;
+}
+
+nav ul li a:hover {
+	color: #EE4036;
+	cursor: pointer;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	transition: all 0.3s linear;
+	color: #3D58A6;
+}
+
+nav .contact {
+	color: #EE4036;
+}
+
+.footer {
+  text-align: left;
+  margin-left: -30px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.photo {
+  display: inline-block;
+  padding-left: 30.2px;
+  float: left;
+}
+
+.contactcontainer {
+	height: 600px;
+	transition: box-shadow .3s;
+	border-radius: 10px;
+	position: relative;
+}
+
+.contactcontainer:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.contactinfo {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	vertical-align: center;
+	line-height: 24px;
+}
+
+.contact1 {
+	font-family: "BPG Nino Mtavruli";
+	font-size: 20px;
+	font-weight: bold;
+	color: #3D58A6;
+}
+
+.address {
+	font-size: 16px;
+	font-family: "BPG Ingiri Arial";
+}
+
+.phone {
+	font-size: 16px;
+	font-family: "BPG Ingiri Arial";
+}
+
+.mail {
+	font-size: 16px;
+	font-family: "BPG Ingiri Arial";
+}
+
+.addresscolor {
+	color: #808080;
+}
+
+.phonecolor {
+	color: #808080;
+}
+
+.mailcolor {
+	color: #808080;
+}

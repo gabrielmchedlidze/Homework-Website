@@ -1,0 +1,102 @@
+@charset "utf-8";
+@font-face {
+  font-family: "BPG Nino Mtavruli";
+  src: url(fonts/bpg_nino_mtavruli_normal.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf)
+}
+@font-face {
+  font-family: "BPG Ingiri Arial";
+  src: url(fonts/bpg_ingiri_arial.ttf)
+}
+
+/* CSS Document */
+
+.htmllogo img {
+	padding-left: 30px;
+	padding-top: 33px;
+	padding-bottom: 23.8px;
+}
+
+nav ul {
+	list-style-type: none;
+	line-height: 26.4px;
+	font-family: "BPG Nino Mtavruli";
+	font-weight: bold;
+	padding-left: 30px;
+	padding-bottom: 36.1px;
+}
+
+nav ul li a:hover {
+	color: #EE4036;
+	cursor: pointer;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 22px;
+	transition: all 0.3s linear;
+	color: #3D58A6;
+}
+
+nav .news {
+	color: #EE4036;
+}
+
+.footer {
+  text-align: left;
+  margin-left: -30px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.photo {
+  display: inline-block;
+  padding-left: 30.2px;
+  float: left;
+}
+
+.pictures {
+	padding-top: 18px;
+}
+
+.may27 {
+	padding-left: 30px;
+}
+
+.text4 {
+	font-size: 48px;
+	font-family: "BPG Nino Mtavruli";
+	font-weight: 200;
+	background-color: #3D58A6;
+	color: white;
+	background-size: 15px;
+	margin-right: 1px;
+	width: 56px;
+	text-align: center;
+}
+
+.may {
+	position: relative;
+	font-size: 22px;
+	font-family: "BPG Nino Mtavruli";
+	border: 1px;
+	width: 60px;
+	color: #3D58A6;
+	padding-top: 7.1px;
+	
+}
+
+.maytext2 {
+	font-size: 20px;
+	font-family: "BPG Nino Mtavruli";
+	padding-top: 18.5px;
+}
+
+.lowertext {
+	font-size: 16px;
+	font-family: "BPG Ingiri Arial";
+	line-heigh: 19.2px;
+	padding-bottom: 39.5px;
+}
